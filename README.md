@@ -17,3 +17,13 @@ func main() {
 	
 	fmt.Println(f(), f(), f(), f(), f())
 }
+
+
+package main
+
+import ("fmt")
+
+func main(){
+ fmt.Println("Hello World")
+
+}
