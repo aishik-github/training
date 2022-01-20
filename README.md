@@ -3,8 +3,7 @@
 package main
 
 import "fmt"
-
-
+<!-- Start  from here -->
 func fib() func() int {
 	a, b := 0, 1
 	return func() int {
@@ -15,6 +14,6 @@ func fib() func() int {
 
 func main() {
 	f := fib()
-	// Function calls are evaluated left-to-right.
+	
 	fmt.Println(f(), f(), f(), f(), f())
 }
